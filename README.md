@@ -33,7 +33,7 @@ The following options are supported:
 ## Go recursively
 There is no recursive option provided because I attend to reduce the overhead some. But I have provided the way to perform this.
 
-Noted, I will not provide the Bash solution because there is so many old version of command is OSX and make OSX user feel uncomfortable (me too).
+Noted, I will not provide the Bash solution because there is so many old version of command in OSX and make OSX user feel uncomfortable (me too).
 
 Example situation, there is `2018-****.txt` in `target` folder
 ```BASH
@@ -88,6 +88,6 @@ $ npm install
 ## Dependency
 ```JSON
 "dependencies": {
-	"stdio": "^0.2.7"
+  "stdio": "^0.2.7"
 }
 ```

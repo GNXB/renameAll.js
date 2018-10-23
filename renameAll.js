@@ -18,13 +18,14 @@ fs.readdir(argv.dir, (err, dir) => {
 	if (argv.test) console.info(fdir);
 	else {
 		for (var i in fdir) {
-			var oname = fdir[i].replace(regex, argv.word);
+			let oname = fdir[i];
+			let nname = fdir[i].replace(regex, argv.word);
 			fs.rename(
-				path.join(argv.dir, fdir[i]), 
 				path.join(argv.dir, oname), 
+				path.join(argv.dir, nname), 
 				err => {
 					if (err) console.error(err);
-					else console.info(fdir[i] + ' -> ' + oname);
+					else console.info(oname + ' [>] ' + nname);
 				}
 			);
 		}
