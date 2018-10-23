@@ -1,6 +1,6 @@
 {
   "name": "js-renameall",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "To rename all file/folder in single directory",
   "main": "renameAll.js",
   "author": "GNXB (Apiwith)",
