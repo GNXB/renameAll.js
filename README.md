@@ -80,6 +80,8 @@ undefined
 
 ## Installation
 ```BASH
+$ git clone https://github.com/GNXB/renameAll.js
+$ cd renameAll.js
 $ npm install
 ```
 
